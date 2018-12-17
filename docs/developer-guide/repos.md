@@ -1,7 +1,7 @@
-# Triton DataCenter repos
+# SmartDataCenter repos
 
 This page holds an overview of the source repositories that make up
-Triton DataCenter. See also [the reference](../reference.md).
+SmartDataCenter (SDC). See also [the reference](../reference.md).
 
 
 The customer-facing self-service API:
@@ -107,10 +107,10 @@ the OS image, and form the foundation for SDC:
 Build tools are used for creating the zone images:
 
 * [sdcnode](https://github.com/joyent/sdcnode): Tools for creation of prebuilt node tarballs for SDC components.
-* [sdcboot](https://github.com/joyent/sdcboot): SDC FDUM environment
 * [sdc-headnode](https://github.com/joyent/sdc-headnode): Repository for building headnode images for SDC, and the intial setup and configuration of the headnode itself
 * [sdc-scripts](https://github.com/joyent/sdc-scripts): Common scripts for configuring and setting up SDC zones.
 * [mountain-gorilla](https://github.com/joyent/mountain-gorilla): Builder of all the SDC bits.
+* [ipxe](https://github.com/joyent/ipxe): SDC iPXE implementation
 
 
 There are also services responsible for syncing data between datacenters or
